@@ -10,7 +10,7 @@ const isProduction = process.env.NODE_ENV == 'production';
 
 const stylesHandler = 'style-loader';
 
-console.log('test');
+console.log('test', process.env.CONTENTFUL_TOKEN);
 
 
 const config = {
