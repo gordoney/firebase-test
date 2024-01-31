@@ -24,6 +24,9 @@ const config = {
         new HtmlWebpackPlugin({
             template: 'index.html',
         }),
+        new webpack.DefinePlugin({
+            'process.env.CONTENTFUL_TOKEN': JSON.stringify(process.env.CONTENTFUL_TOKEN),
+        }),
 
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
