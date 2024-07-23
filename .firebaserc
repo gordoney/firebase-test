@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "test-7ba1c"
+    "default": "test-7ba1c",
+    "second-site-test": "second-site-test"
   }
 }
