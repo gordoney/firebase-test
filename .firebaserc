@@ -1,6 +1,5 @@
 {
   "projects": {
-    "prod": "test-7ba1c",
-    "staging": "second-site-test"
+    "default": "test-7ba1c"
   }
 }

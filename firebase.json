@@ -1,5 +1,13 @@
 {
-  "hosting": {
+  "hosting": [{
+    "site": "test-7ba1c",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }, {
     "site": "second-site-test",
     "public": "public",
     "ignore": [
@@ -7,5 +15,5 @@
       "**/.*",
       "**/node_modules/**"
     ]
-  }
+  }]
 }
