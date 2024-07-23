@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "second-site-test",
     "public": "public",
     "ignore": [
       "firebase.json",
