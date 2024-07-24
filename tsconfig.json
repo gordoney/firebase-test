@@ -1,10 +1,9 @@
 {
+  "extends": "@tsconfig/create-react-app/tsconfig.json",
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "module": "es6",
     "target": "es5",
-    "allowJs": true
+    "lib": ["dom", "dom.iterable", "esnext"]
   },
-  "files": ["src/index.ts"]
+  "include": ["src"],
+  "exclude": ["actions", "delivery-functions"]
 }

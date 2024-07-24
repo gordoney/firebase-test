@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
   "name": "my-webpack-project",
   "version": "1.0.0",
   "description": "My webpack project",
@@ -13,11 +14,49 @@
   },
   "author": "",
   "license": "ISC",
+=======
+  "name": "qr-code",
+  "version": "0.1.0",
+  "private": true,
+>>>>>>> Stashed changes
   "dependencies": {
-    "create-react-app": "^5.0.1",
-    "react": "^18.2.0"
+    "@contentful/app-sdk": "^4.24.0",
+    "@contentful/f36-components": "4.59.1",
+    "@contentful/f36-tokens": "4.0.4",
+    "@contentful/react-apps-toolkit": "1.2.16",
+    "contentful-management": "10.46.4",
+    "emotion": "10.0.27",
+    "qr-code-styling": "^1.6.0-rc.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "cross-env BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "create-app-definition": "contentful-app-scripts create-app-definition",
+    "upload": "contentful-app-scripts upload --bundle-dir ./build",
+    "upload-ci": "contentful-app-scripts upload --ci --bundle-dir ./build --organization-id $CONTENTFUL_ORG_ID --definition-id $CONTENTFUL_APP_DEF_ID --token $CONTENTFUL_ACCESS_TOKEN"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
+<<<<<<< Updated upstream
     "@webpack-cli/generators": "^3.0.7",
     "autoprefixer": "^10.4.17",
     "css-loader": "^6.9.1",
@@ -33,4 +72,17 @@
     "webpack-dev-server": "^4.15.1",
     "workbox-webpack-plugin": "^7.0.0"
   }
+=======
+    "@contentful/app-scripts": "1.13.4",
+    "@testing-library/jest-dom": "5.17.0",
+    "@testing-library/react": "14.2.1",
+    "@tsconfig/create-react-app": "2.0.2",
+    "@types/node": "16.18.79",
+    "@types/react": "18.2.51",
+    "@types/react-dom": "18.2.18",
+    "cross-env": "7.0.3",
+    "typescript": "4.9.5"
+  },
+  "homepage": "."
+>>>>>>> Stashed changes
 }
